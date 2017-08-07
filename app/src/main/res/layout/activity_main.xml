@@ -7,21 +7,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.ftrani.menuopcionites.MainActivity">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/btnFlota"
+    <ImageView
+        android:id="@+id/imgAvatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="21dp"
-        android:clickable="true"
-        android:src="@android:drawable/ic_menu_add"
-        app:fabSize="mini" />
-
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-         />
-
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/noavatar" />
 </RelativeLayout>
