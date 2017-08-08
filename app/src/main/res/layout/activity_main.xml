@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:id="@+id/layMain"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,5 +15,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="51dp"
-        app:srcCompat="@drawable/noavatar" />
+        app:srcCompat="@drawable/noavatar"
+        android:onClick="mostrarPopup"/>
 </RelativeLayout>
